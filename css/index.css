@@ -8,6 +8,10 @@
     src: url('../font/jf-openhuninn-2.1.ttf') format('truetype');
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 body {
     font-family: 'jf-openhuninn', sans-serif;
@@ -21,8 +25,8 @@ html, body {
 
 header {
     background-color: rgb(90, 130, 126,0.8);
-    position: fixed;
     display: flex;
+    position: fixed;
     width: 100%;
     height: 60px;
     align-items: center;
@@ -37,11 +41,6 @@ header div {
     right: 10px;
 }
 
-header h3 a{
-    color: black;
-    text-decoration: none;
-}
-
 header h3 a:hover{
     text-decoration:underline;
 }
@@ -52,54 +51,6 @@ header h3 a:hover{
 .second {
     padding: 0px 10px;
     border-left: 1px solid black;
-}
-
-section img{
-    height: 60%;
-    border-radius: 100%;
-}
-
-section{
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section div{
-    margin-left: 20px;
-}
-h4 {
-    font-size: 60px;
-    justify-content: center;
-    align-items: center;    
-}
-
-section p {
-    font-size: 20px;
-    width: 400px;
-    margin-top: 20px;
-    line-height: 1.5em;
-}
-
-button  {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    margin-right: 20px;
-    background-color: 
-    rgb(250, 255, 202);
-    font-family: 'jf-openhuninn', sans-serif;
-}
-
-button:hover {
-    background-color: rgb(132, 174, 146);
-    cursor: pointer;
-}
-
-/* button的位置 */
-section .button {     
-    margin-top: 15px;
 }
 
 footer {
@@ -133,10 +84,6 @@ footer p {
     font-size: 20px;
 }
 
-footer a {
-    color: black;
-    text-decoration: none;
-}
 
 .gangan {
     border-left: 3px solid rgb(130, 130, 130);
@@ -241,7 +188,11 @@ section .button {
 
 #autobiography {
     font-size: 20px;
+<<<<<<< HEAD
     width: 60%;
+=======
+    width: 850px;
+>>>>>>> d849283 (簡歷完成+一些切頁)
     position:relative;
     left: 20%;
     line-height: 1.8em;
