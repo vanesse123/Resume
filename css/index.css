@@ -188,11 +188,7 @@ section .button {
 
 #autobiography {
     font-size: 20px;
-<<<<<<< HEAD
     width: 60%;
-=======
-    width: 850px;
->>>>>>> d849283 (簡歷完成+一些切頁)
     position:relative;
     left: 20%;
     line-height: 1.8em;
