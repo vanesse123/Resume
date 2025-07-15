@@ -147,3 +147,102 @@ hr {
     border: none;
     background-color: black;
 }
+
+/* section部分 */
+/* 首頁部分 */
+section img{    
+    height: 350px;
+    border-radius: 100%;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#front {
+    display: flex;
+    margin: 150px 0px;
+}
+
+#front_text{
+    margin-left: 20px;
+}
+
+h4 {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.front_p {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+button  {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 20px;
+    background-color: 
+    rgb(250, 255, 202);
+    font-family: 'jf-openhuninn', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(132, 174, 146);
+    cursor: pointer;
+}
+
+/* button的位置 */
+section .button {     
+    margin-top: 15px;
+}
+
+/* 履歷部分 */
+
+.resume {
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+.resume h2 {
+    margin-top: 30px;
+    font-size: 40px;
+    padding-left: 20%;
+}
+
+.resume div {
+    position:relative;
+    left: 65%;
+    top: -40px;
+    width: 30%;
+}
+
+.resume h3 {
+    font-size: 25px;
+}
+
+.resume p {
+    margin: 10px 0px;
+}
+
+.resume hr {
+    width: 90%;
+    margin-left: 5%;
+}
+
+#autobiography {
+    font-size: 20px;
+    width: 850px;
+    position:relative;
+    left: 20%;
+    line-height: 1.8em;
+}
