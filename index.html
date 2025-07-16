@@ -8,10 +8,10 @@
     </head>
     <body>
         <header>
-            <h1><a href="#" onclick="loadPage('front_page')">黃健豪的履歷</a></a></h1>
+            <h1><a href="#" data-page="front_page" onclick="loadPage('front_page', this)">黃健豪的履歷</a></a></h1>
             <div>
-                <h3 class="first"><a href="#" onclick="loadPage('resume')">簡歷</a></h3>
-                <h3 class="second"><a href="#" onclick="loadPage('projects')">專案</a></h3>
+                <h3 class="first"><a href="#" onclick="loadPage('resume', this)">簡歷</a></h3>
+                <h3 class="second"><a href="#" onclick="loadPage('projects' , this)">專案</a></h3>
                 <h3 class="second"><a href="">聯絡方式</a></h3>
             </div>
         </header>

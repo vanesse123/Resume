@@ -20,6 +20,12 @@
   pointer-events: none;
 }
 
+header a.active {
+    color: rgb(250, 255, 202);
+    pointer-events: none;
+    font-weight: bold;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -51,10 +57,6 @@ header div {
     display: flex;
     position: absolute;
     right: 10px;
-}
-
-header h3 a:hover{
-    text-decoration:underline;
 }
 
 .first {

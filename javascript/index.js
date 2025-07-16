@@ -1,7 +1,27 @@
 
-function loadPage(page) {
+let currentPage = null;
+
+function loadPage(page, clickedLink = null) {
+    //防止重複點擊同一個active的頁籤
+    if (page === currentPage) {
+        return;
+    }
+
+    currentPage = page;
+
     const content = document.getElementById('main-content');
     content.classList.add('hidden');
+
+    //移除所有連結的active樣式
+    document.querySelectorAll('header a').forEach(link =>{
+        link.classList.remove('active');
+        link.style.pointerEvents = 'auto';
+    });
+
+    if (clickedLink && clickedLink.dataset.page !== "front_page") {
+        clickedLink.classList.add('active');
+        clickedLink.style.pointerEvents = 'none';
+    }
     
     setTimeout(() => {
         fetch(`temphtml/${page}.html`)
