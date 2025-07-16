@@ -8,6 +8,18 @@
     src: url('../font/jf-openhuninn-2.1.ttf') format('truetype');
 }
 
+/* 頁面特效 */
+#main-content {
+  transition: opacity 0.6s ease;
+  min-height: 300px;
+  caret-color: transparent;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -32,7 +44,7 @@ header {
     align-items: center;
 }
 
-h1 {
+header h1 {
     margin-left: 20px;
 }
 header div {
@@ -62,6 +74,9 @@ footer {
 
 footer div{
     width: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 footer div div {
@@ -157,12 +172,16 @@ section .button {
 .resume {
     width: 100%;
     margin-top: 100px;
-    
+}
+
+.resume h1 {
+    font-size: 50px;
+    padding-left: 20%;
 }
 
 .resume h2 {
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 38px;
     padding-left: 20%;
 }
 
@@ -174,7 +193,7 @@ section .button {
 }
 
 .resume h3 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .resume p {
@@ -192,4 +211,50 @@ section .button {
     position:relative;
     left: 20%;
     line-height: 1.8em;
+}
+
+/* 專案部分 */
+.projects {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.projects h1 {
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+.projects h2 {
+    margin-top: 30px;
+    font-size: 38px;
+    padding-left: 10%;
+}
+
+.projects div {
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+}
+
+.projects p {
+    padding-left: 10%;
+    line-height: 1.8em;
+}
+
+.projects video {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-left: 20px;
+}
+
+
+.projects p {
+    margin: 10px 0px;
+}
+
+.projects hr {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
 }
